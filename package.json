@@ -17,6 +17,6 @@
     "globals": "^16.3.0",
     "nodemon": "^3.1.10",
     "supertest": "^6.3.3",
-    "vitest": "^3.2.0"
+    "vitest": "^4.1.8"
   }
 }
