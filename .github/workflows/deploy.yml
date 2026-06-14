@@ -20,7 +20,7 @@ jobs:
           username: ${{ secrets.SSH_USER }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
-            cd /var/www/myapp/backend
+            cd /var/www/devopsapp/backend
             git pull origin master
             cd /var/www/devopsapp
             docker compose up --build -d backend
